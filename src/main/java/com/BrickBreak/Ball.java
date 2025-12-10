@@ -74,4 +74,9 @@ public class Ball {
 	public void reverseY() {
 		velocityY *= -1;
 	}
+	// Pre-condition: call reverseX()
+	// Post-condition: reverses the X velocity
+	public void reverseX() {
+		velocityX *= -1;
+	}
 }
