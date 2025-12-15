@@ -16,10 +16,12 @@ public class Ball {
 	private int velocityY;
 	
 	//constructor(s):
-	public Ball(int x, int y, int radius) {
+	public Ball(int x, int y, int r) {
 		this.x = x;
 		this.y = y;
-		this.radius = radius;
+		radius = r;
+		velocityX = 0;
+		velocityY = 0;
 	}
 
 	public void draw(Graphics g){
@@ -45,23 +47,23 @@ public class Ball {
 	}
 	// Pre-condition: put input in setX(int x)
 	// Post-condition: sets the position of x equal to the inputted one
-	public void setX(int x){
-		this.x = x;
+	public void setX(int newX){
+		x = newX;
 	}
 	// Pre-condition: put input in setY(int y)
 	// Post-condition: sets the position of y equal to the inputted one
-	public void setY(int y){
-		this.y = y;
+	public void setY(int newY){
+		y = newY;
 	}
 	// Pre-condition: put input in setXvelocity(int velocityX)
 	// Post-condition: gives new velocity for X
-	public void setXVelocity(int velocityX) {
-		this.velocityX = velocityX;
+	public void setXVelocity(int v) {
+		velocityX = v;
 	} 
 	// Pre-condition: put input in setYvelocity(int velocityY)
 	// Post-condition: gives new velocity for Y
-	public void setYVelocity(int velocityY) {
-		this.velocityY = velocityY;
+	public void setYVelocity(int v) {
+		velocityY = v;
 	} 
 	// Pre-condition: call ball.move()
 	// Post-condition: moves the ball according to their x and y velocity

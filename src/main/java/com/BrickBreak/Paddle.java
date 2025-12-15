@@ -17,11 +17,12 @@ public class Paddle {
 	private int velocity;
 	
 	//constructor(s):
-	public Paddle(int x, int y, int width, int height) {
+	public Paddle(int x, int y, int w, int h) {
 		this.x = x;
 		this.y = y;
-		this.width = width;
-		this.height = height;
+		width = w;
+		height = h;
+		velocity = 0;
 	}
 
 	public void draw(Graphics g) {
@@ -57,18 +58,18 @@ public class Paddle {
 	}
 	// Pre-condition: input x value where you want to set the x value to
 	// Post-condition: sets the x value to the inputted value
-	public void setX(int x) {
-		this.x = x;
+	public void setX(int newX) {
+		x = newX;
 	}
 	// Pre-condition: input velocity value where you want to set the velocity value to
 	// Post-condition: sets the velocity to the inputted value
-	public void setVelocity(int velocity) {
-		this.velocity = velocity;
+	public void setVelocity(int v) {
+		velocity = v;
 	}
 	// Pre-condition: input a number and it adds to the velocity
 	// Post-condition: increases the velocity
-	public void addVelocity(int velocity) {
-		this.velocity += velocity;
+	public void addVelocity(int v) {
+		velocity += v;
 	}
 	// Pre-condition: call move() method
 	// Post-condition: moves the paddle
