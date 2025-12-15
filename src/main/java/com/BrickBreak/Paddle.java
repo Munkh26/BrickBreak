@@ -17,9 +17,9 @@ public class Paddle {
 	private int velocity;
 	
 	//constructor(s):
-	public Paddle(int x, int y, int w, int h) {
-		this.x = x;
-		this.y = y;
+	public Paddle(int newX, int newY, int w, int h) {
+		x = newX;
+		y = newY;
 		width = w;
 		height = h;
 		velocity = 0;

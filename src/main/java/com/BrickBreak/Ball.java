@@ -16,9 +16,9 @@ public class Ball {
 	private int velocityY;
 	
 	//constructor(s):
-	public Ball(int x, int y, int r) {
-		this.x = x;
-		this.y = y;
+	public Ball(int newX, int newY, int r) {
+		x = newX;
+		y = newY;
 		radius = r;
 		velocityX = 0;
 		velocityY = 0;
