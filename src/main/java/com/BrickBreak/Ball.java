@@ -1,6 +1,6 @@
 // Class author: Munkhsoyombo Munkhbat
 // Date created:  12/09/2025
-// General description: a brief summary of what this particular class does.
+// General description: implements the private variables, ball constuctor, and its methods.
 
 package com.BrickBreak;
 import java.awt.Color;
