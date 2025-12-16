@@ -11,22 +11,22 @@ public class Ball {
 	//don't forget you need instance variables:
 	private int x;
 	private int y;
-	private int radius;
+	private int diameter;
 	private int velocityX;
 	private int velocityY;
 	
 	//constructor(s):
-	public Ball(int newX, int newY, int r) {
+	public Ball(int newX, int newY, int d) {
 		x = newX;
 		y = newY;
-		radius = r;
+		diameter = d / 2;
 		velocityX = 0;
 		velocityY = 0;
 	}
 
 	public void draw(Graphics g){
 		g.setColor(Color.red);
-		g.fillOval(x, y, radius, radius);
+		g.fillOval(x, y, diameter, diameter);
 	}
 	
 	//methods:
@@ -41,9 +41,9 @@ public class Ball {
 		return y;
 	}
 	// Pre-condition: call ball.getXpos()
-	// Post-condition: returns ball's radius
+	// Post-condition: returns ball's diameter
 	public int getSize() {
-		return radius;
+		return diameter;
 	}
 	// Pre-condition: put input in setX(int x)
 	// Post-condition: sets the position of x equal to the inputted one
