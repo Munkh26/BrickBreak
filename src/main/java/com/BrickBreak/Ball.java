@@ -20,8 +20,8 @@ public class Ball {
 		x = newX;
 		y = newY;
 		radius = r;
-		velocityX = 0;
-		velocityY = 0;
+		velocityX = 1;
+		velocityY = -2;
 	}
 
 	public void draw(Graphics g){
