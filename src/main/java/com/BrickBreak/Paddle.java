@@ -1,6 +1,6 @@
-// Class author: Munkhsoyombo Munkhbat
-// Date created:  12/09/2025
-// General description: This class implements the private variables, paddle constuctor, and its methods.
+// Author: Munkhsoyombo Munkhbat
+// Date:  12/09/2025
+// Description: Represents the player-controlled paddle and handles horizontal movement in the Brick Break game.
 
 package com.BrickBreak;
 

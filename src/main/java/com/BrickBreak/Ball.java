@@ -1,6 +1,6 @@
-// Class author: Munkhsoyombo Munkhbat
-// Date created:  12/09/2025
-// General description: implements the private variables, ball constuctor, and its methods.
+// Author: Munkhsoyombo Munkhbat
+// Date:  12/09/2025
+// Description: Represents the ball in the Brick Break game and controls its position and movement.
 
 package com.BrickBreak;
 import java.awt.Color;
